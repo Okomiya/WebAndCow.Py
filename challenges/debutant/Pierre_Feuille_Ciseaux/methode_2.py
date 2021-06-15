@@ -1,4 +1,4 @@
-def dictionnaire(data) :
+def methode(data):  # DICTIONNAIRE ASSOCIATIF
 
     # On recupere les coups genérés aléatoirement de 'data'
     coups = data['coups']

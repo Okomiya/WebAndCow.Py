@@ -1,4 +1,4 @@
-def if_successifs(data):
+def methode(data):  # IF SUCCESSIFS
 
     # On recupere les coups genérés aléatoirement de 'data'
     coups = data['coups']
@@ -8,9 +8,9 @@ def if_successifs(data):
     for coup in coups:
         if coup == "P":
             reponse += "F"
-        elif coup == "F" :
+        elif coup == "F":
             reponse += "C"
-        else :
+        else:
             reponse += "P"
 
     return reponse

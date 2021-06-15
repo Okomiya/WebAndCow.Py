@@ -1,7 +1,8 @@
 #!/bin/python
 from Game import Game
 from secret_key import get_secret_key
-from challenges.debutant.PIERRE_FEUILLE_CISEAUX import engice_code, methode_1, methode_2
+from challenges.debutant.L_armee_de_Daenerys import engice_code, methode_1
+
 
 # Key personnelle
 player_key = get_secret_key()
@@ -18,8 +19,7 @@ def main():
 
     # ------- CODE ICI -----------
 
-    reponse = methode_2.dictionnaire(data)
-
+    reponse = methode_1.methode(data)
 
     # Permet d'envoyer la reponse du challenge
     game.push({'reponse': reponse})
