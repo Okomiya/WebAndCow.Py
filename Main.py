@@ -1,7 +1,7 @@
 #!/bin/python
 from Game import Game
 from secret_key import get_secret_key
-from challenges.debutant.L_armee_de_Daenerys import engice_code, methode_1
+from challenges.debutant.Coach_de_foot import engice_code, function_1, function_one_line
 
 
 # Key personnelle
@@ -19,7 +19,7 @@ def main():
 
     # ------- CODE ICI -----------
 
-    reponse = methode_1.methode(data)
+    reponse = function_one_line.methode(data)
 
     # Permet d'envoyer la reponse du challenge
     game.push({'reponse': reponse})
