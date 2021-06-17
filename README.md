@@ -1,2 +1,2 @@
-# webandcow_code_challenge
-code-challenge de webandcow en Python
+# WebAndCow - Code_Challenge
+Code Challenge de WebAndCow en Python
