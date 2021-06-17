@@ -1,4 +1,4 @@
-def methode(data):  # LIST & FOR
+def main(data):  # LIST & FOR
 
     # On recupere la data donnee 'armee'
     taille_des_ennemies = data['armee']

@@ -1,4 +1,4 @@
-def methode(data):
+def main(data):
     # On recupere la data, et on cree une seconde liste trier dans l'ordre decroissant
     jouers = data['joueurs']
     r_joueurs = list(reversed(sorted(jouers)))

@@ -1,4 +1,4 @@
-def methode(data):  # list + min
+def main(data):  # list + min
 
     # On recupere la data
     types = data['types']

@@ -1,4 +1,4 @@
-def methode(data):  # Exotic One Line Method
+def main(data):  # Exotic One Line Method
 
     e = data['exemplaires']
     c = data['cotes']

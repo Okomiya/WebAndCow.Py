@@ -1,4 +1,4 @@
-def methode(data):  # IF SUCCESSIFS
+def main(data):  # IF SUCCESSIFS
 
     # On recupere les coups genérés aléatoirement de 'data'
     coups = data['coups']

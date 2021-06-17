@@ -1,4 +1,4 @@
-def methode(data):  # Theoriquement ... One line
+def main(data):  # Theoriquement ... One line
 
     # On recupere la data
     types = data['types']

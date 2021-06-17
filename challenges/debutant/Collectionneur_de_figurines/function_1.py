@@ -1,4 +1,4 @@
-def methode(data):
+def main(data):
     exemplaires = data['exemplaires']
     cotes = data['cotes']
 
