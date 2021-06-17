@@ -1,13 +1,13 @@
 #!/bin/python
 from Game import Game
 from secret_key import get_secret_key
-from challenges.debutant.Coach_de_foot import engice_code, function_1, function_one_line
+from challenges.debutant.Batmobile_et_IA import engine_code, function_1
 
 
 # Key personnelle
 player_key = get_secret_key()
 # Code du challenge
-engine_code = engice_code.get_engice_code()
+engine_code = engine_code.get_engine_code()
 
 
 def main():
@@ -19,7 +19,7 @@ def main():
 
     # ------- CODE ICI -----------
 
-    reponse = function_one_line.methode(data)
+    reponse = function_1.main(data)
 
     # Permet d'envoyer la reponse du challenge
     game.push({'reponse': reponse})
